@@ -205,38 +205,26 @@ The project produces the following analytical outputs:
 
 ## Project Structure
 
-```text
-munich-green-access-analysis/
-│
-├── data/
-│   └── data_raw/
-│       ├── Munich school data
-│       ├── Munich park data
-│       └── Munich district data
-│
-├── QGIS/
-│   └── munich_green_access.qgz
-│
-├── scripts/
-│   ├── test_connection.py
-│   ├── read_schools.py
-│   ├── load_schools_to_postgis.py
-│   ├── load_parks_to_postgis.py
-│   └── python_charts.py
-│
-├── sql/
-│   └── spatial analysis SQL and analytical outputs
-│
-├── notebooks/
-│
-├── maps/
-│   ├── munich_green_access_map.png
-│   ├── schools_access_percentage.png
-│   ├── schools_by_access_category.png
-│   └── top_districts_poor_access.png
-│
-├── README.md
-└── .gitignore
+
+
+The repository is organised into the following main components:
+
+data/ — raw spatial datasets
+QGIS/ — QGIS project
+scripts/ — Python processing and visualisation scripts
+sql/ — SQL and PostGIS spatial analysis
+maps/ — exported maps and visualisations
+outputs/ — analytical output files
+README.md — project documentation
+.gitignore — Git configuration
+Main Scripts
+test_connection.py
+read_schools.py
+load_schools_to_postgis.py
+load_parks_to_postgis.py
+python_charts.py
+Main SQL Analysis
+01_green_access.sql
 
 ## Limitations
 
