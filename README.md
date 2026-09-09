@@ -207,37 +207,43 @@ The project produces the following analytical outputs:
 
 The repository is organised into the following main components:
 
-- **data/**
-  - `data_raw/` — raw spatial datasets
-  - Munich school data
-  - Munich park data
-  - Munich district data
+* **data/**
 
-- **QGIS/**
-  - `munich_green_access.qgz` — QGIS project
+  * `data_raw/` — raw spatial datasets
+  * Munich school data
+  * Munich park data
+  * Munich district data
 
-- **scripts/**
-  - `test_connection.py`
-  - `read_schools.py`
-  - `load_schools_to_postgis.py`
-  - `load_parks_to_postgis.py`
-  - `python_charts.py`
+* **QGIS/**
 
-- **sql/**
-  - `01_green_access.sql` — SQL and PostGIS spatial analysis
+  * `munich_green_access.qgz` — QGIS project
 
-- **maps/**
-  - `munich_green_access_map.png`
-  - `schools_access_percentage.png`
-  - `schools_by_access_category.png`
-  - `top_districts_poor_access.png`
+* **scripts/**
 
-- **outputs/** — analytical output files
+  * `test_connection.py`
+  * `read_schools.py`
+  * `load_schools_to_postgis.py`
+  * `load_parks_to_postgis.py`
+  * `python_charts.py`
 
-- **README.md** — project documentation
+* **sql/**
 
-- **.gitignore** — Git configuration
-:::
+  * `01_green_access.sql` — SQL and PostGIS spatial analysis
+
+* **maps/**
+
+  * `munich_green_access_map.png`
+  * `schools_access_percentage.png`
+  * `schools_by_access_category.png`
+  * `top_districts_poor_access.png`
+
+* **outputs/** — analytical output files
+
+* **README.md** — project documentation
+
+* **.gitignore** — Git configuration
+
+---
 
 ## Limitations
 
