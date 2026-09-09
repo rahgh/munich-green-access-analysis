@@ -1,3 +1,4 @@
+```markdown
 # Munich Green Access Analysis
 
 ## Overview
@@ -79,9 +80,9 @@ The distance between schools and parks was analysed using PostGIS spatial functi
 The nearest park distance was calculated for each school using:
 
 - `ST_Distance`
-- `ST_DWithin`
 - spatial joins
 - aggregation functions
+- `MIN()` to identify the nearest park
 
 ### 4. School Access Classification
 
@@ -96,7 +97,7 @@ Schools were classified according to their distance to the nearest park:
 
 ### 5. District-Level Analysis
 
-Each school was spatially joined to its Munich administrative district.
+Each school was spatially joined to its Munich administrative district using spatial relationships.
 
 The results were then aggregated by district to identify areas with a high proportion of schools located more than 1 km from the nearest park.
 
@@ -150,7 +151,7 @@ The maximum recorded distance was:
 | >1000 m | 342 | 73.7% |
 | **Total** | **464** | **100%** |
 
-The analysis shows that **342 of the 464 schools (73.7%) are located more than 1 km from their nearest park** based on straight-line distance.
+The analysis shows that **342 of the 464 schools (73.7%) are located more than 1 km from their nearest park**, based on straight-line distance.
 
 ---
 
@@ -184,16 +185,17 @@ The map uses **ETRS89 / UTM Zone 32N (EPSG:25832)**.
 
 ## Main Spatial Analysis Outputs
 
-The project produces the following analytical outputs:
+The project produces the following analytical outputs.
 
-### School-level analysis
+### School-Level Analysis
 
+- `school_nearest_park`
 - `school_green_access`
 - nearest park distance
 - school access category
 - school geometry
 
-### District-level analysis
+### District-Level Analysis
 
 - `school_district_access`
 - `district_green_access`
@@ -205,38 +207,30 @@ The project produces the following analytical outputs:
 
 ## Project Structure
 
-```text
-munich-green-access-analysis/
-│
-├── data/
-│   └── data_raw/
-│       ├── Munich school data
-│       ├── Munich park data
-│       └── Munich district data
-│
-├── QGIS/
-│   └── munich_green_access.qgz
-│
-├── scripts/
-│   ├── test_connection.py
-│   ├── read_schools.py
-│   ├── load_schools_to_postgis.py
-│   ├── load_parks_to_postgis.py
-│   └── python_charts.py
-│
-├── sql/
-│   └── spatial analysis SQL and analytical outputs
-│
-├── notebooks/
-│
-├── maps/
-│   ├── munich_green_access_map.png
-│   ├── schools_access_percentage.png
-│   ├── schools_by_access_category.png
-│   └── top_districts_poor_access.png
-│
-├── README.md
-└── .gitignore
+The repository is organised as follows:
+
+- `data/` — raw spatial datasets used in the analysis
+  - `data_raw/` — original source datasets
+- `QGIS/` — QGIS project
+  - `munich_green_access.qgz`
+- `scripts/` — Python scripts
+  - `test_connection.py`
+  - `read_schools.py`
+  - `load_schools_to_postgis.py`
+  - `load_parks_to_postgis.py`
+  - `python_charts.py`
+- `sql/` — SQL and PostGIS spatial analysis
+  - `01_green_access.sql`
+- `maps/` — exported maps and visualisations
+  - `munich_green_access_map.png`
+  - `schools_access_percentage.png`
+  - `schools_by_access_category.png`
+  - `top_districts_poor_access.png`
+- `outputs/` — analytical output files
+- `README.md` — project documentation
+- `.gitignore` — Git configuration
+
+---
 
 ## Limitations
 
@@ -254,9 +248,13 @@ The analysis does not consider:
 - population distribution
 - school capacity or number of students
 
+The results should therefore be interpreted as a **proximity-based indicator of green-space accessibility**, rather than a measure of actual travel accessibility.
+
+---
+
 ## Reproducibility
 
-The project follows a structured GIS workflow combining PostgreSQL/PostGIS, SQL, Python, and QGIS.
+The project follows a structured GIS workflow combining PostgreSQL/PostGIS, SQL, Python and QGIS.
 
 The main spatial analysis is implemented using SQL and PostGIS, including:
 
@@ -267,9 +265,27 @@ The main spatial analysis is implemented using SQL and PostGIS, including:
 - school–district spatial joins
 - district-level aggregation
 
+The project structure separates raw data, processing scripts, SQL analysis, QGIS outputs and visualisations to support a clear and reproducible workflow.
+
+---
+
+## Future Improvements
+
+Potential extensions of the analysis include:
+
+- network-based walking distance instead of straight-line distance
+- analysis of park size and accessibility within parks
+- integration of pedestrian and cycling networks
+- consideration of barriers such as major roads and railways
+- population and school enrolment analysis
+- more detailed accessibility indicators
+- interactive web mapping
+
+---
+
 ## Author
 
 **Rahimeh Gharibpour**
 
 GIS / Geospatial Analysis
-
+```
