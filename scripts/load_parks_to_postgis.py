@@ -2,7 +2,7 @@ import geopandas as gpd
 from sqlalchemy import create_engine
 
 # PostgreSQL password
-PASSWORD = "A1B2C3_narges"
+
 
 engine = create_engine(
     "postgresql://postgres:{password}@localhost/munich_green"
