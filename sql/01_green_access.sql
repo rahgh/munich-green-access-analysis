@@ -62,13 +62,15 @@ SELECT
 FROM parks;
 
 
--- Validate projected geometries.
+-- Validate projected school geometries.
 
 SELECT
     COUNT(*) AS total_schools,
     COUNT(geom_utm) AS schools_with_geometry
 FROM schools_utm;
 
+
+-- Validate projected park geometries.
 
 SELECT
     COUNT(*) AS total_parks,
@@ -77,7 +79,7 @@ FROM parks_utm;
 
 
 -- ============================================================
--- 03. SCHOOL DATA QUALITY AND UNIQUE IDs
+-- 03. SCHOOL DATA QUALITY AND UNIQUE IDS
 -- ============================================================
 
 -- Check whether school names are duplicated.
@@ -88,14 +90,19 @@ SELECT
 FROM schools_utm
 GROUP BY "Name"
 HAVING COUNT(*) > 1
-ORDER BY number_of_records DESC, school_name;
+ORDER BY
+    number_of_records DESC,
+    school_name;
 
 
 -- Count records beyond the first occurrence
 -- for duplicated school names.
 
 SELECT
-    COALESCE(SUM(number_of_records - 1), 0) AS duplicate_records
+    COALESCE(
+        SUM(number_of_records - 1),
+        0
+    ) AS duplicate_records
 FROM (
     SELECT
         "Name",
@@ -106,7 +113,7 @@ FROM (
 ) AS duplicates;
 
 
--- Create a unique identifier for each school record.
+-- Generate a row-based identifier for each school record.
 
 CREATE OR REPLACE VIEW schools_utm_id AS
 SELECT
@@ -119,7 +126,7 @@ SELECT
 FROM schools_utm s;
 
 
--- Validate school IDs.
+-- Validate school identifiers.
 
 SELECT
     COUNT(*) AS total_schools,
@@ -166,14 +173,22 @@ FROM school_nearest_park;
 -- 05. OVERALL DISTANCE STATISTICS
 -- ============================================================
 
+-- Calculate overall nearest-park distance statistics.
+
 SELECT
     COUNT(*) AS total_schools,
-    ROUND(AVG(nearest_park_distance_m)::numeric, 1)
-        AS average_distance_m,
-    ROUND(MIN(nearest_park_distance_m)::numeric, 1)
-        AS minimum_distance_m,
-    ROUND(MAX(nearest_park_distance_m)::numeric, 1)
-        AS maximum_distance_m
+    ROUND(
+        AVG(nearest_park_distance_m)::numeric,
+        1
+    ) AS average_distance_m,
+    ROUND(
+        MIN(nearest_park_distance_m)::numeric,
+        1
+    ) AS minimum_distance_m,
+    ROUND(
+        MAX(nearest_park_distance_m)::numeric,
+        1
+    ) AS maximum_distance_m
 FROM school_nearest_park;
 
 
@@ -261,7 +276,8 @@ SELECT
         1
     ) AS nearest_park_distance_m
 FROM school_green_access
-ORDER BY nearest_park_distance_m DESC
+ORDER BY
+    nearest_park_distance_m DESC
 LIMIT 20;
 
 
@@ -458,7 +474,8 @@ GROUP BY
 -- 14. FINAL VALIDATION
 -- ============================================================
 
--- Overall number of schools and poor-access schools.
+-- Check the total number of schools and
+-- poor-access schools across all districts.
 
 SELECT
     SUM(total_schools) AS total_schools,
@@ -466,7 +483,8 @@ SELECT
 FROM district_green_access;
 
 
--- Overall percentage of schools with poor access.
+-- Calculate the overall percentage of schools
+-- with poor green-space access.
 
 SELECT
     ROUND(
@@ -485,8 +503,4 @@ FROM district_green_access;
 -- school_green_access
 -- school_district_access
 -- district_green_access
- HEAD
 -- ============================================================
-
--- ============================================================
- 4afee350918ff4e9695165efc394b55166ff9f50
