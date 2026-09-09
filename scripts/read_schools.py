@@ -1,7 +1,7 @@
 import geopandas as gpd
 
 schools = gpd.read_file(
-    r"C:\Users\ghari\Documents\MyDocs\munich-green-access-analysis\data\data_raw\Schulen_München.shp"
+    r"C:\Users\Documents\MyDocs\munich-green-access-analysis\data\data_raw\Schulen_München.shp"
 )
 
 print("Number of schools:")
