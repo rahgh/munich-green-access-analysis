@@ -1,11 +1,11 @@
 import geopandas as gpd
 from sqlalchemy import create_engine
+from getpass import getpass
 
-# PostgreSQL password
-
+password = getpass("Enter PostgreSQL password: ")
 
 engine = create_engine(
-    "postgresql://postgres:{password}@localhost/munich_green"
+    f"postgresql://postgres:{password}@localhost/munich_green"
 )
 parks = gpd.read_file(
     r"C:\Users\ghari\Documents\MyDocs\munich-green-access-analysis\data\data_raw\Parks_München.shp"
