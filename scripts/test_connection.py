@@ -1,10 +1,12 @@
-from sqlalchemy import create_engine, URL
-import pandas as pd
+```python
 from getpass import getpass
+
+import pandas as pd
+from sqlalchemy import URL, create_engine
 
 
 # ============================================================
-# 1. Database connection
+# Database connection
 # ============================================================
 
 password = getpass("Enter PostgreSQL password: ")
@@ -15,14 +17,14 @@ connection_url = URL.create(
     password=password,
     host="localhost",
     port=5432,
-    database="munich_green"
+    database="munich_green",
 )
 
 engine = create_engine(connection_url)
 
 
 # ============================================================
-# 2. Test PostGIS connection
+# Test PostGIS connection
 # ============================================================
 
 query = "SELECT PostGIS_Version();"
@@ -35,7 +37,8 @@ print(df)
 
 
 # ============================================================
-# 3. Close database connection
+# Close database connection
 # ============================================================
 
 engine.dispose()
+```
