@@ -1,8 +1,9 @@
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
-from sqlalchemy import create_engine, URL
 from getpass import getpass
 from pathlib import Path
+from sqlalchemy import create_engine, URL
 
 
 # ============================================================
@@ -17,7 +18,7 @@ connection_url = URL.create(
     password=password,
     host="localhost",
     port=5432,
-    database="munich_green"
+    database="munich_green",
 )
 
 engine = create_engine(connection_url)
@@ -27,14 +28,12 @@ engine = create_engine(connection_url)
 # 2. Project and output paths
 # ============================================================
 
-project_folder = Path(
-    r"C:\Users\ghari\Documents\MyDocs\munich-green-access-analysis"
-)
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+OUTPUT_FOLDER = PROJECT_ROOT / "maps"
 
-output_folder = project_folder / "maps"
-output_folder.mkdir(exist_ok=True)
+OUTPUT_FOLDER.mkdir(exist_ok=True)
 
-print(f"Output folder: {output_folder}")
+print(f"Output folder: {OUTPUT_FOLDER}")
 
 
 # ============================================================
@@ -63,7 +62,7 @@ category_order = [
     "0-250 m",
     "250-500 m",
     "500-1000 m",
-    ">1000 m"
+    ">1000 m",
 ]
 
 category_counts = (
@@ -95,9 +94,9 @@ plt.xticks(rotation=0)
 plt.tight_layout()
 
 plt.savefig(
-    output_folder / "schools_by_access_category.png",
+    OUTPUT_FOLDER / "schools_by_access_category.png",
     dpi=300,
-    bbox_inches="tight"
+    bbox_inches="tight",
 )
 
 plt.close()
@@ -119,9 +118,9 @@ plt.xticks(rotation=0)
 plt.tight_layout()
 
 plt.savefig(
-    output_folder / "schools_access_percentage.png",
+    OUTPUT_FOLDER / "schools_access_percentage.png",
     dpi=300,
-    bbox_inches="tight"
+    bbox_inches="tight",
 )
 
 plt.close()
@@ -162,7 +161,7 @@ plt.figure(figsize=(10, 7))
 
 plt.barh(
     top_districts["district_name"],
-    top_districts["poor_access_percentage"]
+    top_districts["poor_access_percentage"],
 )
 
 plt.title(
@@ -178,16 +177,16 @@ plt.ylabel("District")
 plt.tight_layout()
 
 plt.savefig(
-    output_folder / "top_districts_poor_access.png",
+    OUTPUT_FOLDER / "top_districts_poor_access.png",
     dpi=300,
-    bbox_inches="tight"
+    bbox_inches="tight",
 )
 
 plt.close()
 
 
 # ============================================================
-# 9. Summary
+# 9. Overall results
 # ============================================================
 
 print("\nCharts successfully created:")
@@ -195,11 +194,6 @@ print("\nCharts successfully created:")
 print("1. maps/schools_by_access_category.png")
 print("2. maps/schools_access_percentage.png")
 print("3. maps/top_districts_poor_access.png")
-
-
-# ============================================================
-# 10. Overall results
-# ============================================================
 
 print("\nOverall results:")
 
@@ -222,20 +216,18 @@ print(
 
 
 # ============================================================
-# 11. Access category results
+# 10. Access category results
 # ============================================================
 
 print("\nAccess categories:")
-
 print(category_counts)
 
 print("\nAccess percentages:")
-
 print(category_percentages.round(1))
 
 
 # ============================================================
-# 12. Districts with highest poor access
+# 11. Districts with highest poor access
 # ============================================================
 
 print("\nDistricts with highest poor access:")
@@ -246,20 +238,19 @@ print(
             "district_name",
             "total_schools",
             "poor_access_schools",
-            "poor_access_percentage"
+            "poor_access_percentage",
         ]
-    ].head(10).to_string(index=False)
+    ]
+    .head(10)
+    .to_string(index=False)
 )
 
 
 # ============================================================
-# 13. Close database connection
+# 12. Close database connection
 # ============================================================
 
 engine.dispose()
 
-
-print("\nPython analysis completed successfully.")
-
-print("\nPython analysis completed successfully.")
-      4afee350918ff4e9695165efc394b55166ff9f50
+print("\nPython analysis completed successfully!")
+```
