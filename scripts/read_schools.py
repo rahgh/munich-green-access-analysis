@@ -1,17 +1,17 @@
-import geopandas as gpd
+```python
 from pathlib import Path
 
+import geopandas as gpd
+
 
 # ============================================================
-# 1. Project and data paths
+# Project and data paths
 # ============================================================
 
-project_folder = Path(
-    r"C:\Users\ghari\Documents\MyDocs\munich-green-access-analysis"
-)
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-school_file = (
-    project_folder
+SCHOOL_FILE = (
+    PROJECT_ROOT
     / "data"
     / "data_raw"
     / "Schulen_München.shp"
@@ -19,14 +19,14 @@ school_file = (
 
 
 # ============================================================
-# 2. Read school data
+# Read school data
 # ============================================================
 
-schools = gpd.read_file(school_file)
+schools = gpd.read_file(SCHOOL_FILE)
 
 
 # ============================================================
-# 3. Basic dataset information
+# Basic dataset information
 # ============================================================
 
 print("Number of schools:")
@@ -40,3 +40,4 @@ print(schools.crs)
 
 print("\nFirst 5 records:")
 print(schools.head())
+```
