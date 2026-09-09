@@ -1,0 +1,465 @@
+"school_id","school_name","address","nearest_park_distance_m"
+457,"Städtische Meisterschule für das Maler- und Lackiererhandwerk","Carl-Wery-Straße 41",75.39090108525203
+306,"Thomas-Mann-Gymnasium",NULL,77.38797630675481
+459,"Städtische Berufsschule für Farbe und Gestaltung","Carl-Wery-Straße 41",83.44166595640537
+285,"Städtisches berufliches Schulzentrum für Farbe und Gestaltung","Carl-Wery-Straße 41",84.20480024508593
+458,"Städtische Fachschule für Farb- und Lacktechnik","Carl-Wery-Straße 41",101.84475823494047
+456,"Städtische Meisterschule für das Vergolderhandwerk","Carl-Wery-Straße 41",105.9984178449119
+418,"Grundschule an der Emmy-Noether-Straße","Emmy-Noether-Straße 5",157.03732250966596
+305,"Grundschule Aidenbachstraße",NULL,162.05389551150213
+412,"Aton-Schule","Bayerwaldstraße 3-5",177.2628682968332
+454,"Städt. Berufsschule für Rechts- und Verwaltungsberufe","Astrid-Lindgren-Straße 1",179.63470138280033
+197,"Grundschule und Tagesheim",NULL,203.79034723845749
+293,"Rotbuchenschule","Rotbuchenstraße 81",216.33187259257514
+347,"Städtische Berufsschule für elektrische Anlagen- und Gebäudetechnik","Bergsonstraße 109",221.31363268339086
+294,"Städtisches Theodolinden-Gymnasium","Am Staudengarten 2",223.9180057572747
+337,"Echo Music School","Naupliastraße 36",227.25703409492695
+365,"Fachschule für Farb- und Lacktechnik","Hofmannstraße 42",236.71056350377157
+350,"Städtische Berufsschule für Industrieelektronik","Bergsonstraße 109",238.89643613463673
+463,"Mittelschule am Echardinger Grünstreifen","Innsbrucker Ring 75",240.7702271255407
+221,"Nadischule",NULL,248.50428033592706
+74,"Staatliche Berufsschule München-Land","Graf-Lehndorff-Straße 28",260.3321094905476
+349,"Technikerschule München - Städtische Fachschule für Maschinenbau-, Mechatronik-, Metallbau-, Informatik- und Elektrotechnik","Bergsonstraße 109",260.769503706852
+455,"Städtische Berufsschule für Finanz-, Immobilien- und Automobilwirtschaft","Astrid-Lindgren-Straße 1",261.99959439351346
+462,"Sonderpädagogisches Förderzentrum München-Mitte 4","Innsbrucker Ring 75",269.07303872380027
+383,"Private Pestalozzi Realschule München","Truderinger Straße 265b",277.75031248631353
+348,"Staatliche Fachoberschule München-West","Bergsonstraße 109",285.9573832129027
+208,NULL,NULL,291.9445250700308
+240,"Bildungscampus Freiham",NULL,292.0565329208977
+356,"Gymnasium Fürstenried",NULL,292.3856903676075
+132,"Jules-Vernes-Campus",NULL,292.3915594960758
+447,"Gymnasium Freiham","Hildegard-Hamm-Brücher-Straße 5",303.9992042900351
+235,"Adolf-Kolping-Berufsschule",NULL,329.39276926996115
+73,"Christophorus-Schule","Leibengerstraße 16",330.6497290373196
+284,NULL,NULL,349.73706616846255
+357,"Joseph-von-Fraunhofer-Schule - Staatliche Realschule München II",NULL,351.5019519583542
+223,"Schulzentrum Fürstenried-West",NULL,357.8550620167436
+70,"Förderzentrum München-Ost","Astrid-Lindgren-Straße 5",367.62835044407075
+274,"St. George’s School Munich",NULL,374.0009898605206
+390,"Montessori Schule München","Heiglhofstraße 63",381.99747323685034
+9,"Grundschule an der Walliser Straße","Walliser Straße 5",394.9704422665985
+220,"Städtische Carl-von-Linde Realschule München","Ridlerstraße 26",406.16269178425995
+256,"Grundschule Lehrer-Götz-Weg München","Lehrer-Götz-Weg 21",438.1419801386831
+332,"Lehrinstitut Derksen","Pfingstrosenstraße 73",450.1872106576395
+219,"Mittelschule an der Ridlerstraße","Ridlerstraße 26",461.89205897049584
+222,"Grund- und Mittelschule an der Walliser Straße","Walliser Straße 5",465.02203488063896
+141,"Grundschule Burmesterstraße 23",NULL,466.43082373090624
+166,"Schwimmbad",NULL,469.54197417961734
+161,"Mittelschule an der Walliser Straße",NULL,474.53531442056965
+269,"Städtische Ludwig-Thoma-Realschule",NULL,474.8257449740771
+275,"Schulcampus Ungererstraße 191","Ungererstraße 191",475.3428322561758
+242,"Grundschule an der Dieselstraße","Dieselstraße 12",484.349532142217
+346,"Grundschule an der Astrid-Lindgren-Straße","Astrid-Lindgren-Straße 11",487.9842141793526
+451,"Berufsschule zur Berufsvorbereitung",NULL,517.7125878848715
+57,"Grundschule an der Gotzmannstraße","Gotzmannstraße 19",519.1255343360073
+84,NULL,NULL,528.0929531812545
+181,"Forellenschule","Forellenstraße 5",530.0010640485962
+237,"Isar Grundschule / Privates Gymnasium Huber",NULL,530.5032538694993
+91,"SDI-Campus","Baierbrunner Straße 28",534.2597227887608
+131,"Grundschule an der Fritz-Lutz-Straße","Fritz-Lutz-Straße 24",537.6494099154794
+382,"Grundschule an der Grafinger Straße","Grafinger Straße 71",546.7064878114834
+191,"Michaeli-Gymnasium München","Hachinger-Bach-Straße 25",557.4503778987
+31,"Grund- und Mittelschule an der Führichstraße 53","Führichstraße 53",563.7608674725794
+47,"Grundschule am Ravensburger Ring","Ravensburger Ring 37",564.3669237212177
+17,NULL,NULL,572.2211241459967
+227,"Grundschule Aubinger Allee 152","Aubinger Allee 152",576.6604170174784
+101,"Grundschule an der Bergmannstraße","Bergmannstraße 36",576.734315480126
+26,"Staatliche Realschule München VI","Paul-Hindemith-Allee 7",579.0166690190335
+58,"Grundschule am Schubinweg","Schubinweg 3",607.5301335098197
+40,"Mittelschule an der Wiesentfelser Straße","Wiesentfelser Straße 53",616.77543794392
+446,"campus42",NULL,617.2910325930061
+85,"Grundschule Rennertstraße 10","Rennertstraße 10",623.7322445545702
+309,NULL,NULL,626.9968215161675
+441,"Grundschule Königswieser Straße","Bühler Weg 2",632.8195689880254
+33,"Städtisches Heinrich-Heine-Gymnasium","Max-Reinhardt-Weg 27",632.9360248971045
+32,"Grundschule Dietzfelbingerplatz 5","Dietzfelbingerplatz 5",634.8353092474767
+286,"Grundschule an der Baierbrunner Straße 53",NULL,648.0991624703757
+23,"Grundschule an der Limesstraße","Limesstraße 38",652.0763769935296
+226,"Grundschule Gustl-Bayrhammer-Straße",NULL,659.6571498464771
+78,"Mittelschule an der Franz-Nißl-Straße","Franz-Nißl-Straße 55",670.5606258656481
+20,"Friedel-Eder-Schule","Max-Proebstl-Straße 11",672.4356789699223
+400,"Abraxas Musical Akademie","Hofmannstraße 5",679.9168784343693
+396,"Walner-Akademie für Rettungsmedizin","Stefan-George-Ring 23",694.3728507474991
+438,"Pythagoras-Schule","Ernsbergerstraße 3",717.7912581107176
+448,"Grundschule an der St.-Veit-Straße 46","Sankt-Veit-Straße 46",728.3498915987133
+327,"Grundschule an der Herterichstraße","Herterichstraße 41",732.5517786658481
+143,"Grundschule an der Paulckestraße",NULL,741.3510073417095
+51,"Europäische Schule München","Elise-Aulinger-Straße 21",749.4731354903679
+394,"BildungsLokal Neuaubing-Westkreuz",NULL,757.4369759300077
+77,"Grundschule am Pfanzeltplatz",NULL,767.0149712845431
+41,"Mittelschule an der Reichenaustraße","Reichenaustraße 3",769.2468694424307
+224,NULL,NULL,769.9818979330481
+93,"Grundschule Guldeinschule","Guldeinstraße 27",771.4282980658286
+59,"Rudolf-Steiner-Schule","Max-Proebstl-Straße 7",778.2174218790375
+245,"Montessori Fachoberschule München",NULL,779.1290362511346
+277,"Städtische Grundschule an der Pfeuferstraße 1","Pfeuferstraße 1",783.417097422596
+160,"Grundschule an der Lerchenauer Straße 322","Lerchenauer Straße 322",789.6720277728058
+225,"Städtischer Berufsschulcampus Moosach","Riesstraße 30-44",793.6135990651765
+68,"Grundschule am Canisiusplatz","Canisiusplatz 2",794.1030141213328
+288,"Zweigstelle Böglstraße der Grundschule am Pfanzeltplatz",NULL,798.9018881847275
+402,"Grund- und Mittelschule an der Peslmüllerstraße","Peslmüllerstraße 8",804.1582883625206
+60,NULL,NULL,807.9471364196404
+54,"Nymphenburger Schulen","Sadelerstraße 10",809.1614148876758
+202,"Grundschule an der Hanselmannstraße","Hanselmannstraße 45",823.461312870131
+243,"Mittelschule an der Situlistraße",NULL,828.9034549784141
+401,"Städtisches Bertolt-Brecht-Gymnasium","Peslmüllerstraße 6",845.1477595990054
+364,"Evangelische PflegeAkademie – Berufsfachschule für Altenpflege","Baierbrunner Straße 105",855.6649513600665
+393,"Städtische Berufsschule für Körperpflege","Haager Straße 18",861.8674180142035
+322,NULL,NULL,867.4463638269536
+24,"Keilberthschule",NULL,872.0798575010913
+129,"Grundschule an der Boschetsrieder Straße","Boschetsrieder Straße 35",890.6540672125092
+248,"Grundschule mit Tagesheim an der Jenaer Straße",NULL,896.494907718631
+76,"Grundschule an der Schäferwiese","An der Schäferwiese 5",905.5032068375313
+292,"Grundschule im Werksviertel",NULL,906.8360374256678
+196,"Maria-Ward Mädchenrealschule",NULL,912.5465725059641
+436,"Städtische Elly-Heuss-Realschule","Paul-Wassermann-Straße 14",918.074954426129
+344,"Mittelschule Feldbergstraße","Feldbergstraße 85",941.6070262754512
+106,"Pavillion",NULL,960.6896681842809
+273,"Jan-Amos-Comenius-Schule",NULL,970.2186050638011
+244,"Grundschule am Amphionpark",NULL,972.7303903192462
+157,"Feldbergschule",NULL,973.2654883953562
+435,"Münchner Volkshochschule","Paul-Wassermann-Straße 10",974.4313997603897
+110,"Mittelschule am Inzeller Weg 4",NULL,981.083699652727
+437,"Gymnasium München Riem","Paul-Wassermann-Straße 18",989.1208244354998
+464,"Gymnasium Feldmoching","Georg-Zech-Allee 16",1000.5343771016568
+249,"Mittelschule München Moosach","Leipziger Straße 7",1013.7714715094214
+210,"Waldklassenzimmer",NULL,1024.7645647083023
+97,"Städtische Carl-Spitzweg-Realschule","Zwiedineckstraße 35",1026.190884605257
+345,"Grundschule an der Feldbergstraße","Feldbergstraße 85",1026.6438143586186
+148,"Grundschule an der Forstenrieder Allee",NULL,1032.8642052593145
+16,"Karlsgymnasium","Am Stadtpark 21",1038.7532525810145
+34,"Grundschule an der Ostpreußenstraße 88","Ostpreußenstraße 88",1046.1772840006217
+449,"Otto-Steiner-Schule, privates Förderzentrum geistige Entwicklung","Rainfarnstraße 44",1047.5994284702654
+260,"Grundschule Berg-am-Laim","Berg-am-Laim-Straße 142",1049.3306521894028
+399,"Grillviertel",NULL,1055.8451606767217
+215,"Städtische Artur-Kutscher-Realschule","Gerastraße 6",1060.317804356236
+295,"Grundschule an der Fröttmaninger Straße","Fröttmaninger Straße 21",1083.2265422216456
+262,"Sonderpädagogisches Förderzentrum München Nord-Ost (Haus 2)","Gertrud-Grunow-Straße 51",1089.8608054213914
+311,"Konfuzius-Institut München e.V.",NULL,1090.9508375574178
+156,"Albert-Einstein-Gymnasium","Lautererstraße 2",1094.6668096186472
+204,"Bayerische Landesschule für Körperbehinderte","Kurzstraße 2",1105.5081415534491
+2,"Städtisches Louise-Schroeder-Gymnasium","Pfarrer-Grimm-Straße 1",1105.815115688601
+125,"Städtische Erich-Kästner-Realschule",NULL,1108.2634840411067
+304,"Inklusive Monte Balan",NULL,1112.0454411387027
+263,"Grundschule am Bauhausplatz","Bauhausplatz 9",1112.6077672846236
+214,"Gymnasium München/Moosach","Gerastraße 6",1112.6793486475565
+150,"Grundschule am Strehleranger",NULL,1122.672834273718
+439,"Grundschule an der Gerastraße","Gerastraße 6",1132.8497893736512
+185,"Lycée Jean Renoir","Berlepschstraße 3",1134.4623859412488
+56,"Schulzentrum an der Gerastraße",NULL,1134.757544068711
+99,"Grundschule an der Pfarrer-Grimm-Straße","Pfarrer-Grimm-Straße 1",1144.8321194138834
+264,"Grund- und Mittelschule an der Lehrer-Wirth-Straße 31","Lehrer-Wirth-Straße 31",1144.872289785008
+369,"Münchnervolkshochschule MVHS","Blodigstraße 4",1145.7363434169547
+8,"Wichern Zentrum","Heinrich-Braun-Weg 9",1164.9364849761575
+136,"Grundschule an der Oselstraße","Oselstraße 21",1165.2357873740348
+211,"Grundschule mit Tagesheim Theodor-Heuss-Platz 6",NULL,1175.4740914708045
+289,"Gymnasium Neufreimann","Friederike-Nadig-Allee 48",1188.892049646912
+341,"Staatliche Fachoberschule und Berufsoberschule für Wirtschaft München Filiale Lipowskystraße 15","Lipowskystraße 15",1191.377879908779
+53,"Sonderpädagogisches Förderzentrum München Nord","Heinrich-Braun-Weg 11",1225.16766483651
+126,"Grundschule an der Ittlingerstraße",NULL,1229.8925096849898
+39,"Grundschule an der Waldmeisterstraße","Waldmeisterstraße 38",1243.0148232680688
+213,NULL,NULL,1243.5019780036355
+95,"Förderschule und Heilpädagogische Tagesstätte","Köferinger Straße 20",1244.6478028072231
+147,"Grundschule an der Eversbuschstraße 182",NULL,1245.0509955236157
+453,"SFZ München Nord-West",NULL,1259.5340454975096
+333,"neuhof Schulen","Plinganserstraße 138",1265.944908641598
+86,"Städtische Wilhelm-Busch-Realschule","Krehlebogen 16",1295.6705279601008
+158,"Grundschule an der Berner Straße","Berner Straße 6",1300.019875738452
+146,"Manzoschule",NULL,1314.160284212783
+388,"Mentor Fortbildungen","Charles-de-Gaulle-Straße 2",1318.0836812861653
+389,"Carl Remigius Medical School","Charles-de-Gaulle-Straße 2",1320.6539417211086
+212,"Samuel-Heinicke-Fachoberschule","Dachstraße 19",1325.2562569344145
+386,"Hochschule Fresenius","Charles-de-Gaulle-Straße 2",1327.7987916562843
+387,"Ludwig Fresenius Schulen","Charles-de-Gaulle-Straße 2",1329.793922575465
+3,"Städtische Berufliche Schulen Orleansstraße 46","Orleansstraße 46",1331.6334781338023
+6,"Grundschule an der Manzostraße","Manzostraße 79",1334.18205266294
+52,"Städtisches Berufsschulzentrum an der Orleansstraße",NULL,1344.4220994526665
+133,"Montessori-Schule im Olympiapark","Willi-Gebhardt-Ufer 32",1352.8354414370956
+87,"Wilhelm-Röntgen-Realschule München","Klabundstraße 8",1360.189643409561
+83,"Grundschule an der Helsinkistraße",NULL,1361.862405415382
+431,"Staatliche Fachober- und Berufsoberschule Technik München","Orleansstraße 44",1369.998354414495
+64,"Grundschule Kafkastraße 9","Kafkastraße 9",1378.3272408913356
+216,"Grundschule am Hedernfeld",NULL,1379.1925031294938
+254,"Internationale Montessori-Schule München","Lerchenstraße 14",1383.426473144156
+430,"MVHS (Volkshochschule München)",NULL,1395.8415059848533
+217,"Grundschule an der Weißenseestraße",NULL,1400.4806574084355
+21,"Grundschule am Schererplatz","Schererplatz 3",1407.44697141449
+238,"Schulen an der Fernpaßstraße",NULL,1410.7398811954617
+183,"Staatliche Berufliche Oberschule für Wirtschaft","Lindwurmstraße 90",1411.6099681871215
+1,"Grund- und Mittelschule an der Fromundstraße 5",NULL,1414.1508206032925
+409,"Mittelschule an der Sambergerstraße",NULL,1422.6541701812732
+371,"Arrow ECS Trainingszentrum","Elsenheimerstraße 1",1424.9145629826348
+236,"Dom-Pedro-Grundschule","Dom-Pedro-Platz 2",1431.77374799915
+460,"Osteopathie Schule Deutschland","Quagliostraße 9",1434.9246906297885
+42,"Städtisches Elsa-Brändström-Gymnasium","Ebenböckstraße 1",1436.1724450296974
+15,"Grundschule an der Weißenseestraße","Weißenseestraße 45",1451.9853605515357
+151,NULL,NULL,1463.718466165831
+367,"Staatliche Dieter-Hildebrandt-Wirtschaftsschule München","Meindlstraße 8a",1464.7463154112013
+408,"Grundschule an der Sambergerstraße 14",NULL,1474.4167021465012
+4,NULL,NULL,1474.8991976474372
+46,"Grundschule an der Plinganserstraße","Plinganserstraße 28",1489.7149775607982
+335,"Grundschule an der Plinganserstraße - Außenstelle Meindlstraße","Meindlstraße 8",1494.8058134381645
+205,NULL,NULL,1496.2302742901904
+50,"Grund- und Mittelschule an der Schrobenhausener Straße","Schrobenhausener Straße 15",1502.9164303409277
+287,"Grundschule an der Theoder-Fischer-Straße",NULL,1521.6782231394734
+159,"Mittelschule Zielstattstraße","Würmseestraße 71",1532.0340895328943
+203,"Katholische Fachakademie für Sozialpädagogik München","Theodolindenstraße 24",1541.8862832758887
+461,"Grundschule an der Bäckerstraße","Bäckerstraße 58",1543.0889599632794
+37,"Schulzentrum an der Quiddestraße","Quiddestraße 4",1550.168112778968
+419,"Städtische Robert-Bosch-Fachoberschule Wirtschaft","Schleißheimer Straße 510",1554.1255531087036
+376,"Städtische Nelson-Mandela-Berufsoberschule Wirtschaft","Schleißheimer Straße 510",1556.1671319328912
+427,"Grundschule Stielerstraße 6","Stielerstraße 6",1558.4622305358419
+19,"Freie Waldorfschule München Südwest",NULL,1560.375740952391
+55,"Grundschule Konrad-Celtis-Straße",NULL,1566.4612814770219
+182,NULL,NULL,1571.3193710621877
+79,"Schulungszentrum McDonald's","51",1573.4035775417763
+360,"Städtisches Werner-von-Siemens-Gymnasium","Quiddestraße 4",1579.703703878122
+189,"Privatgymnasium Dr. Florian Überreiter","Pariser Straße 30",1581.9964894003087
+307,"Private Wirtschaftsschule begemann e. V.",NULL,1584.759586623754
+339,"Sonderpädagogisches Förderzentrum München-Süd","Stielerstraße 6",1593.3511839994624
+171,"Gertrud-Bäumer-Grundschule","Gertrud-Bäumer-Straße 19",1598.1282701857372
+407,"Städtische Anne-Frank-Realschule","Bäckerstraße 58",1601.6539750437778
+168,"Grundschule an der Helmholtzstraße","Helmholtzstraße 6",1605.375209265398
+359,"Städtische Werner-von-Siemens-Realschule","Quiddestraße 4",1608.893302051263
+154,"Lukas-Schule (Grundschule)",NULL,1613.4737594417875
+165,"Grund u- Mittelschule Grosshaderner Straße",NULL,1621.1729080381683
+172,"Samuel-Heinicke-Realschule und Internat","In den Kirschen 1",1627.1842189784186
+358,"Städtische Schulartunabhängige Orientierungsstufe","Quiddestraße 4",1638.1642882122037
+43,"Grund- und Mittelschule an der Toni-Pfülf-Straße","Toni-Pfülf-Straße 30",1655.281248792125
+342,"Prisma e.V.","Hermann-Lingg-Straße 13",1659.9311602481123
+123,"Akademie des Städtischen Klinikums München","Kraepelinstraße 18",1664.793723614546
+12,"Berufsfachschule für Pflegekräfte","Kraepelinstraße 18",1677.5315305079039
+186,"München Klinik Akademie",NULL,1683.4085363121503
+415,"Internationale Montessorischule München","Albert-Schweitzer-Straße 68",1688.9393817736461
+113,"Bazeilles-Grundschule",NULL,1690.6390695997961
+354,"Immanuel-Schule",NULL,1694.0228338601205
+177,"Mittelschule an der Albert-Schweitzer-Straße","Albert-Schweitzer-Straße 59",1696.2417071126158
+81,"Mittel- und Förderschule am Gerhart-Hauptmann-Ring","Gerhart-Hauptmann-Ring 15",1698.7486034031917
+298,"Grundschule Schwanthalerstraße","Schwanthalerstraße 87",1701.1514137372983
+194,"Rabennest","Flurstraße 2",1705.7223070079863
+315,"Blindeninstitut München",NULL,1708.7866721361888
+119,NULL,NULL,1716.6732915786827
+115,"Edith-Stein-Gymnasium",NULL,1720.2551272860746
+251,"Georg-Büchner-Realschule","Droste-Hülshoff-Straße 5",1722.7235129933465
+385,"Grundschule an der Flurstraße","Flurstraße 4",1730.293276984188
+384,"Städtische Adalbert-Stifter-Realschule","Flurstraße 4",1741.1331675467056
+104,"Ernst-Barlach Schulen","Barlachstraße 36",1748.422001769906
+180,"Städtische Fridtjof-Nansen-Realschule","Ernst-Reuter-Straße 4",1756.0362418382122
+190,"Caritas Don Bosco Schulen für Kinderpflege","Auerfeldstraße 19",1759.5644976599315
+272,"Mittelschule an der Elisabeth-Kohn-Straße 4",NULL,1772.509792138211
+270,"Grund- und Mittelschule an der Implerstraße","Implerstraße 35",1787.3145119871635
+392,"Ernst-Reuter Grundschule","Ernst-Reuter-Straße 4",1789.440296478248
+336,"Institut für Berufliche Bildung AG","Schwanthalerstraße 75a",1793.6189205466665
+135,"Luitpold-Gymnasium","Elektrastraße 61",1793.6649649864914
+105,"Schule an der Hirschbergstraße",NULL,1798.4684221940147
+176,"Grundschule an der Droste-Hülshoff-Straße","Droste-Hülshoff-Straße 9",1804.4525226111932
+199,"Städtisches Willi-Graf-Gymnasium",NULL,1806.7450152998902
+372,"Hotelberufsfachschule Kermess",NULL,1807.928102897887
+72,"Berufsbildungszentrum für Farbe und Raumgestaltung",NULL,1810.172002717988
+355,"Bavarian International School gAG - City Campus","Leopoldstraße 208",1813.4012987924436
+283,"Chemieschule Dr. Erwin Elhardt",NULL,1817.3185608695928
+250,NULL,NULL,1823.8030144977474
+440,"FOS Nord","Freudstraße 15",1825.858338459386
+329,"Städtische Fachoberschule für Gestaltung","Ungsteiner Straße 46",1831.1904684048025
+403,"Coffe & Art - Die Ermutigungswerkstatt","Volkartstraße 16",1839.0306406920035
+28,"Mittelschule München an der Perlacher Straße 114",NULL,1853.2153036895577
+353,"Heimerer Schulen","Bayerstraße 73",1855.736453701235
+142,"Grundschule mit Tagesheim an der Thelottstraße 20","Thelottstraße 20",1862.361642531328
+452,"Willy-Brandt-Gesamtschule","Freudstraße 15",1866.3662948687534
+48,"Grund- und Mittelschule an der Knappertsbuschstraße","Knappertsbuschstraße 43",1869.0413853181387
+124,"Grundschule an der Bad-Soden-Straße 27",NULL,1873.6827047857118
+230,"Theresien-Gymnasium",NULL,1876.706730546981
+281,"Kompetenzzentrum für Erziehungsberufe München Mitte",NULL,1877.8269030526822
+179,"Grundschule an der Werdenfelsstraße",NULL,1878.1474450514825
+421,"Städt. Fachakademie für Sozialpädagogik München Mitte","Ruppertstraße 3",1878.4007003367867
+261,"Städtische Ricarda-Huch-Realschule, Zweigstelle","Karl-Theodor-Straße 90",1880.7945977399488
+253,"Private Griechische Schulen „Sokrates“ ""ΣΩΚΡΑΤΗΣ""","Zamdorfer Straße 26",1883.5369153120796
+423,"Städt. Fachschule für Grundschulkindbetreuung","Ruppertstraße 3",1912.6191038762486
+422,"Städt. Fachakademie für Heilpädagogik","Ruppertstraße 3",1913.7017507498301
+198,"Städtisches Sophie-Scholl-Gymnasium",NULL,1918.8257944148822
+378,"Städtische Berufsschule für Fertigungstechnik","Deroystraße 1",1921.6680691065897
+280,"Wilhelm-Hausenstein-Gymnasium",NULL,1924.3760719102202
+352,"Parzivâl-Schule","Ackermannstraße 83",1924.7209484881776
+218,"Grund- und Mittelschule an der Torquato-Tasso-Straße","Torquato-Tasso-Straße 38",1927.0852574380294
+114,"Mittelschule Wörthstraße",NULL,1935.3704877542812
+265,"Berufliches Schulzentrum an der Deroystraße",NULL,1948.3944664119258
+229,"Grund- u. Mittelschule Guardinistraße","Guardinistraße 60",1953.0005114698447
+398,"Städtische Berufsschule für Metall-Design-Mechatronik","Deroystraße 1",1959.6572602032347
+379,"Berufliches Schulzentrum Alois Senefelder","Pranckhstraße 2",1974.605999142364
+13,"ESM Grundschule","Auguste-Kent-Platz 3",1975.1251728934883
+149,"Wittelsbacher-Gymnasium","Marsplatz 1",1991.6661689512196
+326,"Private Realschule Gut Warnberg","Warnbergstraße 1",1993.8039085930777
+174,"Studienseminar Albertinum",NULL,1996.790957289662
+38,"Grundschule am Bayernplatz",NULL,1998.8101332590263
+35,"Gymnasium Trudering","Friedenspromenade 64",1999.2068198118955
+71,"Lycée Français Jean Renoir","Ungsteiner Straße 50",1999.4331387775132
+18,"Dante-Gymnasium München","Wackersberger Straße 61",2001.3978203593952
+36,"Klenze-Gymnasium München","Wackersberger Straße 59",2005.5087636806131
+5,"Mittelschule an der Cincinnatistraße 63","Cincinnatistraße 63",2005.565530565302
+14,"Grund- und Mittelschule am Winthirplatz 6","Winthirplatz 6",2006.1013704530171
+330,"Münchenkolleg, Gymnasium des Zweiten Bildungsweges","Schlierseestraße 47",2015.2424803077463
+22,"Helene Habermann Gymnasium","Lincolnstraße 92",2020.5666842147184
+173,"Abendgymnasium","Schlierseestraße 47",2023.562408799129
+320,"Städtische Rainer-Werner-Fassbinder-Fachoberschule für Sozialwesen","Schlierseestraße 47",2024.002338230936
+111,"Städtisches Lion-Feuchtwanger-Gymnasium","Freiligrathstraße 71",2025.6026146024592
+426,"Sozialpädagogische Schulen","Schlierseestraße 47",2026.5736678311964
+27,"Städtische Berufsschule für das Hotel, Gaststätten- und Braugewerbe","Simon-Knoll-Platz 3",2028.64718832331
+297,"Grundschule an der Südlichen Auffahrtsallee","Südliche Auffahrtsallee 82",2029.0246045314504
+278,NULL,NULL,2033.3242579029882
+268,NULL,NULL,2034.0791924767161
+195,"Sonderpädagogisches Förderzentrum München-Mitte 2 Filiale Kirchenstr. 13","Kirchenstraße 13",2036.351366107766
+233,"Marieluise-Fleißer-Realschule","Aschauer Straße 9",2041.5444254092677
+188,"Pflegeschule der Schwesternschaft vom BRK","Rotkreuzplatz 8",2041.6204700894034
+246,"Grundschule an der Grandlstraße","Grandlstraße 5a",2044.492990188423
+395,"Schkola Nr.1",NULL,2044.9402263176046
+107,"Grundschule an der Balanstraße 153",NULL,2044.9426669124525
+318,"Gut Warnberg Schulgelände",NULL,2052.394583663357
+368,"Sabel","Schwanthalerstraße 51",2053.464206060852
+334,"Stiftung ICP München","Garmischer Straße 241",2057.879498900421
+331,"Deutschinstitut Integra","Goethestraße 28",2065.9950157573458
+362,"Erzbischöfliches Maria-Ward-Gymnasium Nymphenburg","Maria-Ward-Straße 5",2067.135445690567
+65,NULL,"Grandlstraße 5",2073.1163610668905
+100,"Erasmus-Grasser-Gymnasium","Gilmstraße 2",2075.2901304604575
+391,"Grundschule an der Kirchenstraße","Kirchenstraße 11",2077.3471349399024
+117,"Grundschule an der Kirchenstraße",NULL,2078.970841446312
+404,"Städtische Maria-Probst-Realschule","Gotzinger Platz 1a",2079.5266039335525
+381,"Erzbischöfliche Maria-Ward-Realschule Nymphenburg","Maria-Ward-Straße 5",2081.5235321137384
+374,"Städt. Berufsschule für Augenoptik","Marsplatz 8",2086.4298282804584
+92,"Grundschule Feldmochinger Straße 251","Feldmochinger Straße 251",2086.463966032687
+241,"Städt. Bildungszentrum für Augenoptik und Optometrie","Marsplatz 8",2090.2361491576917
+328,"Berufsschule zur Berufsintegration","Balanstraße 208",2101.7942736796003
+25,"Max-Planck-Gymnasium","Weinbergerstraße 29",2106.976136497459
+405,"Grundschule am Gotzinger Platz","Gotzinger Platz 1",2108.13345082634
+375,"Städt. Fachschule für Augenoptik","Marsplatz 8",2109.311903589213
+406,"Mittelschule am Gotzinger Platz 1","Gotzinger Platz 1",2112.189895315894
+325,"Sabel GBS Fachschulen","Goethestraße 12",2113.153004375339
+255,"Grundschule Maria-Ward-Straße","Maria-Ward-Straße 1",2120.515170585156
+63,"Asam-Gymnasium",NULL,2123.08649927126
+416,"Grundschule Blumenau","Blumenauer Straße 11",2124.965736115931
+134,"Grund- und Mittelschule an der Stuntzstraße 55",NULL,2131.177365767013
+201,"Hablas Español","Blutenburgstraße 41a",2133.090624415186
+108,"Städtische Berufsschulen Balanstraße 208",NULL,2133.297409583308
+266,"Stiftung Journalistenakademie Dr. Hooffacker GmbH & Co. KG","Renatastraße 41",2133.604296732923
+10,"Mittelschule Blumenau","Blumenauer Straße 11",2139.1784383421223
+144,"Grundschule am Hildegard-von-Bingen-Anger",NULL,2164.7770703516608
+175,NULL,NULL,2166.376569663255
+30,"Staatliche Grundschule Markgrafenstraße","Markgrafenstraße 33",2169.047142112158
+116,"Städtische Balthasar-Neumann Realschule",NULL,2175.2939649565033
+267,"Japanische Internationale Schule München","Bleyerstraße 4",2182.323327181763
+80,"Grundschule Max-Kolmsperger-Straße 6","Max-Kolmsperger-Straße 6",2184.883994743901
+167,"Grundschule an der Blutenburgstraße",NULL,2186.8127382980374
+279,"Grundschule an der Oberföhringer Straße","Oberföhringer Straße 224b",2191.215794424321
+128,"Grundschule Tumblingerstrasse","Tumblingerstraße 6",2198.006718241796
+140,"Grundschule an der Gilmstraße",NULL,2232.633404428946
+138,"Förderschule an der Gilmstraße",NULL,2233.5696698575625
+7,"Ludwigsgymnasium","Fürstenrieder Straße 159a",2236.0633932347987
+118,"Maria-Theresia-Gymnasium","Regerplatz 1",2236.1204946251546
+82,"Städtische Rudolf-Diesel-Realschule","Schulstraße 3",2243.4546222843082
+282,NULL,NULL,2247.947039769676
+420,"Grundschule an der Infanteriestraße 25",NULL,2250.5815384267025
+410,"Mittelschule Ichostraße 2","Ichostraße 2",2251.974462327034
+411,"Grundschule und Tagesstätte Ichostraße 2","Ichostraße 2",2256.6978782290244
+247,"Grundschule an der Ruth-Drexel-Straße",NULL,2262.747437363184
+44,"Grundschule an der Farinellistraße","Farinellistraße 7",2263.1029843226306
+139,"Grundschule an der Gilmstraße 46 & Sonderpädagogisches Förderzentrum München Mitte 3 — am Westpark",NULL,2268.9617480100346
+88,"Grundschule am Karl-Marx-Ring","Karl-Marx-Ring 67",2273.4387880737004
+239,"Käthe-Kollwitz-Gymnasium","Nibelungenstraße 51a",2280.8260172208065
+121,"Grund- und Mittelschule an der Weilerstraße",NULL,2284.179090633247
+11,"Erasmus-Grasser-Gymnasium","Fürstenrieder Straße 159",2287.0613819407004
+137,"Agilolfingerschule",NULL,2287.755104233664
+321,"Grundschule an der Hugo-Wolf-Straße","Schliemannweg 71",2289.0218544381096
+276,"Städtische Franz-Auweck-Abendschule","Kapschstraße 4",2297.158277176001
+120,"Rothpletzschule",NULL,2301.1141650518766
+67,"Städtische Hermann-Frieb-Realschule","Hohenzollernstraße 140",2307.7440124727996
+164,"Städtisches Adolf-Weber-Gymnasium","Kapschstraße 4",2321.663158628473
+169,"Obermenzinger Gymnasium","Freseniusstraße 47",2332.328861187909
+433,"Deutschinstitut Integra","Schillerstraße 7",2340.4554314918305
+155,"Schule an der Fürstenrieder Straße","Fürstenrieder Straße 30",2345.623874186697
+434,"Carl Duisberg Centrum München","Pfänderstraße 6",2351.0264148109495
+445,"Grundschule am Mariahilfplatz","Hochstraße 29",2352.03107545816
+316,"Städtischen Rudolf-Diesel-Realschule München",NULL,2352.1903271256315
+310,"Schulverbund München","Hochstraße 13",2364.2245195369583
+193,"Hochschule Fresenius",NULL,2371.161430331817
+308,"Grundschule an der Hermine-von-Parish-Straße","Hermine-von-Parish-Straße 15",2379.9842766449124
+163,"Rupprecht-Gymnasium",NULL,2386.1752903304537
+75,"Grundschule - Tagesheim - Kindertagesstätte An der St.-Martin-Straße 30",NULL,2400.0587298884034
+209,NULL,NULL,2403.8919114309692
+257,"Grund- und Mittelschule an der Alfonsstraße",NULL,2414.836905993967
+444,"Grund- und Mittelschule an der Hochstraße","Hochstraße 31",2415.257284243065
+127,"Gymnasium Max-Josef-Stift","Mühlbaurstraße 15",2434.2219082295755
+370,"deutschakademie",NULL,2434.309378644152
+207,"Münchner Schmink und Kosmetikschule","Dachauer Straße 5",2436.5532922221882
+397,"Lukas-Realschule","Helmpertstraße 9",2442.9870330303706
+29,"Grundschule Gänselieselstraße 33","Gänselieselstraße 33",2457.2019111505997
+450,"Staatliche Berufsfachschule für Logopädie am Klinikum der Universität München","Pettenkoferstraße 4a",2466.945138866194
+145,"Silvia-Görres-Schule",NULL,2474.9959236185427
+340,"IFP Institut zur Förderung publizistischen Nachwuchses","Kapuzinerstraße 38",2483.841082095305
+363,"Studienkolleg München","Infanteriestraße 7a",2487.6607509557343
+112,"Grund- und Mittelschule an der Rockefellerstraße 11",NULL,2528.1670147103487
+45,"Städtisches Luisengymnasium","Luisenstraße 7",2528.452766638381
+187,"Simmernschule","Simmernstraße 2",2528.464928287705
+299,"Kirchl. Fachakademie für Hauswirtschaft",NULL,2529.697931743832
+301,"Theresia-Gerhardinger- Mädchenrealschule",NULL,2542.3169807430463
+442,"Städtische Fachschule für Bautechnik München","Luisenstraße 9-11",2543.0513412206788
+89,"Grundschule an der Regina-Ullmann-Straße 6","Regina-Ullmann-Straße 6",2545.2719447722075
+380,"Förderzentrum Förderschwerpunkt Hören","Musenbergstraße 32",2549.797603536518
+234,"Gymnasium München-Nord","Knorrstraße 171",2550.3165621462617
+366,"inlingua Berufsfachschule für Fremdsprachenberufe",NULL,2567.2032583903165
+300,"Kirchl. Fachakademie für Sozialpädagogik","Mariahilfplatz 14",2578.9884865686618
+153,"Grundschule an der Menaristraße","Menaristraße 7",2622.7880661439053
+178,"Grundschule an der Turnerstraße","Turnerstraße 46",2632.1261416443263
+302,"Evangelisches Bildungszentrum","Herzog-Wilhelm-Straße 24",2641.777780731319
+443,"Städtisches Berufsschulzentrum für das Bau- und Kunsthandwerk München","Luisenstraße 9-11",2647.335894887305
+296,"Grundschule an der Haimhauserstraße","Haimhauserstraße 23",2659.8425129755087
+69,"Maximiliansgymnasium","Karl-Theodor-Straße 9",2698.3661183029285
+432,"Isabella Atelier","Isabellastraße 35",2721.3339188246255
+414,"Lehrinstitut Bauer","Kreuzstraße 14",2725.708706172822
+429,"Städtische Berufsschule für Lagerlogistik, Groß- und Außenhandel","Sendlinger-Tor-Platz 14",2726.4741128991964
+162,"Oskar-von-Miller-Gymnasium","Siegfriedstraße 22",2728.9875546026433
+252,"Grundschule am Mariahilfplatz","Mariahilfplatz 18",2735.2168995581646
+351,"Innung der Friseure München","Holzstraße 8",2743.9751980736132
+417,"Grundschule Von-der-Pfordten-Straße (ehemals Camerloher Straße)","Von-der-Pfordten-Straße 80",2763.0507991057
+109,"Staatliches Pestalozzi-Gymnasium","Eduard-Schmid-Straße 1",2776.0207927864967
+259,"Städtische Berufsschule für Spedition und Touristik",NULL,2786.471332949848
+377,"Städtische Berufsschule für Lagerlogistik, Groß- und Außenhandel","Luisenstraße 29",2788.397679641225
+373,"Städtische Anita-Augspurg-Berufsoberschule für Sozialwesen","Brienner Straße 37",2821.9883719169734
+271,"Grundschule mit Tagesheim an der Margarethe-Danzi-Straße 17",NULL,2852.7044251058815
+96,"Städtische Salvator-Realschule","Damenstiftstraße 3",2857.600740646975
+413,"Nähclub München","Bauerstraße 1",2881.625440840953
+49,"Grundschule an der Gebelestraße","Gebelestraße 2",2895.2911705404863
+170,"Staatliches Wilhelmsgymnasium","Thierschstraße 46",2936.6464076202465
+424,"Städtische Berufsschule für Kfz-Technik","Elisabethplatz 4",2949.6134791255135
+303,"Berufliches Schulzentrum","Elisabethplatz 4",2954.1630266644515
+130,"Wittelsbacher Mittelschule","Wittelsbacherstraße 10",2968.7907354540666
+122,"Grundschule an der Schwindstraße",NULL,2970.8973384529468
+425,"Städtische Fachschule für Fahrzeugtechnik und Elektromobilität München","Elisabethplatz 4",2972.156979030731
+184,NULL,NULL,2975.301292040156
+228,"Wilhelm-Grundschule","Wilhelmstraße 29",2981.9904027897605
+361,"Sonderpädagogisches Förderzentrum München Mitte 1","Dachauer Straße 98",2989.4974720348696
+66,"Städtische Ricarda-Huch-Realschule, Grundschule, Kindertagestätte",NULL,2997.4843836493924
+231,"Grundschule Dachauer Straße","Dachauer Straße 98",2999.236635826351
+192,"Gisela-Gymnasium","Arcisstraße 65",3007.0506795398887
+232,"Prof.-Otto-Speck-Schule","Dachauer Straße 96",3012.789691273683
+98,"Grundschule an der Klenzestraße",NULL,3016.4655974159296
+200,"Schulverbund München","Kohlstraße 5",3021.5166351958082
+324,"Theresia-Gerhardinger-Gymnasium am Anger",NULL,3029.988791056941
+323,"Theresia-Gerhardinger-Grundschule am Anger",NULL,3080.8820896968623
+314,"Bilinguales Gymnasium Phorms",NULL,3187.9781565915014
+290,"Otto-Falckenberg-Schule","Stollbergstraße 7a",3196.712587428017
+313,"Bilinguale Grundschule Phorms",NULL,3230.7141024584457
+90,"Sankt-Anna-Gymnasium","Sankt-Anna-Straße 20",3232.4847936444417
+103,"Mathilde-Eller-Schule / Heilpädagogische Tagesstätte Klenzestraße","Klenzestraße 27",3243.247700602319
+317,"Sankt-Anna-Grundschule","Sankt-Anna-Straße 22",3263.670849332304
+338,"Förderschule an der Herrnstraße","Herrnstraße 21",3266.964603150342
+343,"Grundschule an der Herrnstraße","Herrnstraße 21",3269.934086870286
+291,"Otto-Falckenberg-Schule","Falckenbergstraße 2",3279.4953974762207
+152,"Staatliches Luitpold-Gymnasium","Seeaustraße 1",3284.270869399992
+94,"Städtische Riemerschmid Wirtschaftsschule München","Frauenstraße 19",3303.0158580028065
+258,"EAM School of International Business","Frauenplatz 11",3307.47151929729
+102,"Grundschule am Gärtnerplatz","Klenzestraße 27",3309.1661357829444
+312,"Städtische Berufsschule zur Berufsvorbereitung","Bogenhauser Kirchplatz 3",3312.822918936421
+319,"Rudolf-Steiner-Schule","Leopoldstraße 17",3388.5078363322177
+428,"Galli","Türkenstraße 86",3624.500378737275
+206,"Städtische Helen-Keller-Realschule","Oettingenstraße 78",3662.960701787904
+62,"Grundschule und Städtischer Hort an der Türkenstraße 68","Türkenstraße 68",3710.5210364447544
+61,"Grundschule an der Türkenstraße","Türkenstraße 68",3717.9282934660273
