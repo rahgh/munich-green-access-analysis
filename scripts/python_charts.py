@@ -23,9 +23,8 @@ connection_url = URL.create(
 engine = create_engine(connection_url)
 
 
-
 # ============================================================
-# 2. Output folder
+# 2. Project and output paths
 # ============================================================
 
 project_folder = Path(
@@ -33,14 +32,13 @@ project_folder = Path(
 )
 
 output_folder = project_folder / "maps"
-
 output_folder.mkdir(exist_ok=True)
 
 print(f"Output folder: {output_folder}")
 
 
 # ============================================================
-# 3. Read school access data
+# 3. Read school-level green access data
 # ============================================================
 
 school_query = """
@@ -58,7 +56,7 @@ print(f"Schools loaded: {len(schools)}")
 
 
 # ============================================================
-# 4. Chart 1 — Number of schools by access category
+# 4. School access categories
 # ============================================================
 
 category_order = [
@@ -73,7 +71,17 @@ category_counts = (
     .value_counts()
     .reindex(category_order)
     .fillna(0)
+    .astype(int)
 )
+
+category_percentages = (
+    category_counts / len(schools) * 100
+)
+
+
+# ============================================================
+# 5. Chart 1 — Number of schools by access category
+# ============================================================
 
 plt.figure(figsize=(9, 6))
 
@@ -96,12 +104,8 @@ plt.close()
 
 
 # ============================================================
-# 5. Chart 2 — Percentage of schools by access category
+# 6. Chart 2 — Percentage of schools by access category
 # ============================================================
-
-category_percentages = (
-    category_counts / len(schools) * 100
-)
 
 plt.figure(figsize=(9, 6))
 
@@ -124,7 +128,7 @@ plt.close()
 
 
 # ============================================================
-# 6. Read district-level data
+# 7. Read district-level green access data
 # ============================================================
 
 district_query = """
@@ -145,11 +149,13 @@ print(f"Districts with schools: {len(districts)}")
 
 
 # ============================================================
-# 7. Chart 3 — Districts with highest poor access
+# 8. Chart 3 — Districts with highest poor access
 # ============================================================
 
-top_districts = districts.head(10).sort_values(
-    "poor_access_percentage"
+top_districts = (
+    districts
+    .head(10)
+    .sort_values("poor_access_percentage")
 )
 
 plt.figure(figsize=(10, 7))
@@ -181,7 +187,7 @@ plt.close()
 
 
 # ============================================================
-# 8. Summary
+# 9. Summary
 # ============================================================
 
 print("\nCharts successfully created:")
@@ -189,6 +195,11 @@ print("\nCharts successfully created:")
 print("1. maps/schools_by_access_category.png")
 print("2. maps/schools_access_percentage.png")
 print("3. maps/top_districts_poor_access.png")
+
+
+# ============================================================
+# 10. Overall results
+# ============================================================
 
 print("\nOverall results:")
 
@@ -199,9 +210,33 @@ print(
     f"{schools['nearest_park_distance_m'].mean():.1f} m"
 )
 
+print(
+    f"Minimum distance to nearest park: "
+    f"{schools['nearest_park_distance_m'].min():.1f} m"
+)
+
+print(
+    f"Maximum distance to nearest park: "
+    f"{schools['nearest_park_distance_m'].max():.1f} m"
+)
+
+
+# ============================================================
+# 11. Access category results
+# ============================================================
+
 print("\nAccess categories:")
 
 print(category_counts)
+
+print("\nAccess percentages:")
+
+print(category_percentages.round(1))
+
+
+# ============================================================
+# 12. Districts with highest poor access
+# ============================================================
 
 print("\nDistricts with highest poor access:")
 
@@ -210,7 +245,17 @@ print(
         [
             "district_name",
             "total_schools",
+            "poor_access_schools",
             "poor_access_percentage"
         ]
-    ].head(10)
+    ].head(10).to_string(index=False)
 )
+
+
+# ============================================================
+# 13. Close database connection
+# ============================================================
+
+engine.dispose()
+
+print("\nPython analysis completed successfully.")
