@@ -30,15 +30,19 @@ The main objectives of the project are:
 
 ---
 
-## Data
+## Data Sources
 
-The analysis uses spatial datasets representing:
+The spatial datasets used in this project were obtained from the
+[Bavarian State Office for Surveying (Bayerische Vermessungsverwaltung)
+OpenData portal](https://geodaten.bayern.de/opengeodata/).
 
-* Schools in Munich
-* Parks and green spaces in Munich
-* Munich administrative districts
+The project uses datasets covering:
+- Schools in Munich
+- Parks and green spaces
+- Munich administrative districts
 
-The datasets contain geographic coordinates and spatial geometries required for spatial analysis.
+The data were processed and analysed using PostgreSQL/PostGIS, Python,
+and QGIS.
 
 ---
 
