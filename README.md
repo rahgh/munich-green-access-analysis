@@ -202,45 +202,30 @@ The map uses **ETRS89 / UTM Zone 32N (EPSG:25832)**.
 
 ## Project Structure
 
+```text
+munich-green-access-analysis/
+├── data/
+│   └── data_raw/
+├── maps/
+├── outputs/
+├── QGIS/
+├── scripts/
+├── sql/
+├── .gitignore
+└── README.md
+```
 The repository is organised into the following main components:
 
-* **data/**
-
-  * `data_raw/` — raw spatial datasets
-  * Munich school data
-  * Munich park data
-  * Munich district data
-
-* **QGIS/**
-
-  * `munich_green_access.qgz` — QGIS project
-
-* **scripts/**
-
-  * `test_connection.py`
-  * `read_schools.py`
-  * `load_schools_to_postgis.py`
-  * `load_parks_to_postgis.py`
-  * `python_charts.py`
-
-* **sql/**
-
-  * `01_green_access.sql` — SQL and PostGIS spatial analysis
-
-* **maps/**
-
-  * `munich_green_access_map.png`
-  * `schools_access_percentage.png`
-  * `schools_by_access_category.png`
-  * `top_districts_poor_access.png`
-
-* **outputs/** — analytical output files
-
+* **QGIS/** — QGIS project file
+* **data/** — raw spatial datasets
+* **maps/** — final visualisations and charts
+* **outputs/** — analytical CSV outputs
+* **scripts/** — Python scripts for data loading and analysis
+* **sql/** — PostGIS spatial analysis queries
 * **README.md** — project documentation
-
 * **.gitignore** — Git configuration
 
----
+```
 
 ## Limitations
 
