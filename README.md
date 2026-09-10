@@ -202,18 +202,6 @@ The map uses **ETRS89 / UTM Zone 32N (EPSG:25832)**.
 
 ## Project Structure
 
-```text
-munich-green-access-analysis/
-├── data/
-│   └── data_raw/
-├── maps/
-├── outputs/
-├── QGIS/
-├── scripts/
-├── sql/
-├── .gitignore
-└── README.md
-```
 The repository is organised into the following main components:
 
 * **QGIS/** — QGIS project file
@@ -226,7 +214,6 @@ The repository is organised into the following main components:
 * **.gitignore** — Git configuration
 
 ```
-
 ## Limitations
 
 This analysis measures accessibility based on the **straight-line distance** from each school to its nearest park.
