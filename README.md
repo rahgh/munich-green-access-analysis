@@ -199,6 +199,7 @@ The map uses **ETRS89 / UTM Zone 32N (EPSG:25832)**.
 * percentage of schools with poor access
 
 ---
+
 ## Project Structure
 
 The repository is organised into the following main components:
